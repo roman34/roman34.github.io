@@ -67,7 +67,7 @@ main .layout-positioner2 {
     display: inline-block;
     margin: 49px 49px 0 49px;
 }
-.
+
 
 footer {
     background: url(image/Header-texture.png) #232426;
@@ -82,7 +82,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: #4e4e4e;
+    color: #cecece;
     font: 400 12px / 48px Arial;
 }
 
