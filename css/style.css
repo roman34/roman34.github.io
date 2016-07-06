@@ -29,7 +29,6 @@ header .layout-positioner {
 header .logo-sign {
     width: 255px;
     position: relative;
-
 }
 header img {
     
@@ -63,7 +62,7 @@ main .layout-positioner2 {
 }
 
 .box {
-    width: 400px;
+    max-width: 400px;
     display: inline-block;
     margin: 49px 49px 0 49px;
 }
@@ -85,4 +84,60 @@ footer p {
     color: #cecece;
     font: 400 12px / 48px Arial;
 }
+
+
+
+
+@media only screen and (max-width : 360px){
+    
+    header {
+    width: 976%;
+}
+    
+        header H1 {
+    width: 89%;
+    margin: -44px auto 10px;
+}
+    
+    header .logo-sign {
+    margin: 40px auto;
+}
+    
+    header .layout-positioner {
+    max-width: 100%;
+    margin: 0 auto;
+}
+    
+    main .layout-positioner2 {
+    max-width: 100%;
+    margin: 25px auto;    
+}
+    
+    .container {
+    width: 976%;
+    background: #bebebe;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #afafaf;
+    border-radius: 5px;
+}
+    
+footer {
+    background: url(image/Header-texture.png) #232426;
+    clear: both;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    width: 976%;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
 
